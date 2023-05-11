@@ -7,6 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -145,112 +146,79 @@
             </button>
         </div>
     </section>
+
     <!-- sambutan -->
     <!-- About start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container-xxl py-5">
+
             <div class="row g-5 align-items-center">
                 <div class="col-lg-4">
 
-                    <div class=" h-50 overflow-hidden">
-                        <img class="img-fluid"
-                            src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg ">
+                    <div class="">
+                        <img class="img-fluid rounded-5"
+                            src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg" style="object-fit: cover; object-position: 100% 0; width: 400px; height: 350px;">
                     </div>
-
-
-                    <!-- <div class="col-6 text-end">
-                        <img class="img-fluid  w-75"
-                        src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg " alt="" style="margin-top: 25%;">
-                    </div>
-                    <div class="col-6 text-start">
-                        <img class="img-fluid  w-100"  src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg ">
-                    </div>
-                    <div class="col-6 text-end">
-                        <img class="img-fluid w-50"  src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg ">
-                    </div>
-                    <div class="col-6 text-start">
-                        <img class="img-fluid  w-75"  src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg ">
-                    </div> -->
 
                 </div>
                 <div class="col-lg-8">
                     <h1 class="mb-4">SAMBUTAN <span class="text-primary text-uppercase">KETUA RW.</span></h1>
-                    <p class="mb-4">With millions of hectares of fertile land on 17,000 islands, agriculture is a
-                        vital sector in Indonesia, absorbing the country's largest workforce. Data from the Central
-                        Statistics Agency for 2020 shows that almost 30% of Indonesian workers, or around 8.23 million
-                        people, depend on the agricultural sector for their livelihood. However, the sector faces many
-                        problems, including poor supply chain infrastructure and a lack of access to advanced
-                        technology. <b></b> is here to solve this problem and to support the government's efforts to be
-                        self-sufficient in food in order to welcome the industrial revolution era 5.0</b></p>
+                    <p class="mb-4"> Assalamualaikum Wr. Wb.</b></p>
 
                     <p>
-                        Great potential, lots of challenges
-                        The company currently partners with around 1,500 farmer groups in Indonesia, with a total of
-                        more than 10,000 individual farmers. Nyayur has five sourcing hubs in West Java to serve
-                        customers in Greater Jakarta and two other hubs in Surabaya and Bali.</p>
+                    Kemanusiaan Yang Adil dan Beradab adalah sebaik-baik barometer kita sebagai Warga Negara yang baik dalam memberikan pelayanan dan sebagai wakil pemerintah di tengah-tengah masyarakat, karena kemajuan sebuah lingkungan terutama sosial ekonomi bukan hanya menjadi tanggung jawab perorangan. Melainkan tanggung jawab kita semua. Untuk itu hanya dengan niat dan kemauan yang kuat ditambah doa kita Semua insyaAllah mampu mengubah RW 05 Kelurahan Bandungrejosari, Kota Malang ini menjadi lingkungan yang lebih guyub dan rukun, adil dan beradab sosial dan ekonominya. Lebih merdeka dalam segala hal yang positif. Terima kasih. </p>
 
-
+                    <p>
+                      <span class="badge rounded-pill text-bg-primary">#tonggoKuiseduLurPalingCede'k</span>
+                      <span class="badge rounded-pill text-bg-primary">#RW05PeduliLingkungan</span>
+                      <span class="badge rounded-pill text-bg-primary">#TanjungAnomJayaLuarBiasa</span>
+                    </p>
                 </div>
-                <div class="row g-3 pb-4">
-                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="border rounded p-1">
-                            <div class="border rounded text-center p-4">
-                                <i class="fa fa-mobile-screen fa-2x text-primary mb-2"></i>
-                                <h2 class="mb-1" data-val="10" id="num">00</h2>
-                                <p class="mb-0 fw-bolder">Million</p>
-                                <p class="mb-0">User</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div class="row p-3 mb-2 bg-primary text-white">
+            <div class="col-sm-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class=" p-1">
+                    <div class=" text-center p-4">
+                        <i class="fa fa-mobile-screen fa-2x text-primary mb-2"></i>
+                        <h2 class="mb-1" data-val="10" id="num">00</h2>
+                        <p class="mb-0">Laki-laki</p>
                     </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="border rounded p-1">
-                            <div class="border rounded text-center p-4">
-                                <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                <h2 class="mb-1" data-val="80" id="num">00</h2>
-                                <br>
-                                <p class="mb-0">Staffs</p>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-sm-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class=" p-1">
+                    <div class=" text-center p-4">
+                        <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                        <h2 class="mb-1" data-val="80" id="num">00</h2>
+                        <p class="mb-0">Perempuan</p>
                     </div>
-                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="border rounded p-1">
-                            <div class="border rounded text-center p-4">
-                                <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                                <h2 class="mb-1" data-val="500" id="num">000</h2>
-                                <br>
-                                <p class="mb-0">Clients</p>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="p-1">
+                    <div class="text-center p-4">
+                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                        <h2 class="mb-1" data-val="500" id="num">000</h2>
+
+                        <p class="mb-0">Jiwa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class=" p-1">
+                    <div class=" text-center p-4">
+                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                        <h2 class="mb-1" data-val="500" id="num">000</h2>
+                        <p class="mb-0">Kepala Keluarga</p>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- about end -->
 
 
         <h1>Organisasi Masyarakat</h1>
-
-        <!-- ormas -->
-        <!-- <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
         <!-- galery start -->
         <section class="container">
@@ -317,7 +285,6 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
         </script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
         <script>
             let valueDisplays = document.querySelectorAll("#num");
