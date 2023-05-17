@@ -81,6 +81,76 @@
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
         }
+
+
+
+        /* Start Gallery CSS */
+        .thumb {
+            margin-bottom: 15px;
+        }
+
+        .thumb:last-child {
+            margin-bottom: 0;
+        }
+
+        .thumb figure img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+
+        .thumb figure:hover img {
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+        }
+
+        #custom-text-link{
+        font-size: 11pt;
+      }
+
+      #module {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      .card img{
+        max-height: 500;
+      }
+
+      .read-more, .read-less{
+        color:#485ae4;
+        cursor: pointer;
+        font-weight: 400;
+        text-transform: lowercase;
+        font-size: 12pt;
+      }
+
+      .read-less:hover, .read-more:hover{
+        text-decoration: underline;
+      }
+
+      .btn-more{
+        width: 200px;
+        padding: 5px;
+        border: none;
+        background: #485ae4;
+        color: white;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 13pt;
+        margin-bottom: 0px;
+      }
+
+      .btn-more:hover{
+        text-decoration: underline;
+        background-color: blue
+      }
+
+      .blue-title{
+        color: #485ae4;
+      }
+
     </style>
 </head>
 
