@@ -53,7 +53,7 @@
 
                 <div class="">
                     <img class="img-fluid rounded-5"
-                        src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg" style="object-fit: cover; object-position: 100% 0; width: 400px; height: 350px;">
+                        src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg" style="object-fit: cover; object-position: 100% 0; width: 400px; height: 350px;" alt="img">
                 </div>
 
             </div>
