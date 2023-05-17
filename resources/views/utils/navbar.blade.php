@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-lg z-3 fixed-top --bs-primary">
     <div class="container">
+
         <a class="navbar-brand fw-bold" href="#">ERWE LIMO Tanjungrejo</a>
+        <a class="navbar-brand fw-bold" href="#">Tanjung Anom</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,6 +17,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Profil
+                      Dropdown
                     </a>
                     <ul class="dropdown-menu" data-bs-auto-close="outside">
                         <li><a class="dropdown-item" href="#">Agenda</a></li>

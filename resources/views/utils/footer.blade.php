@@ -5,7 +5,10 @@
       <div class="row pt-4 py-4">
         <!--Grid column-->
         <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+
           <h5 class="text-uppercase">ERWE LIMO Tanjungrejo</h5>
+
+          <h5 class="text-uppercase">Tanjung Anom</h5>
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis

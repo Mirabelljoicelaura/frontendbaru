@@ -2,7 +2,11 @@
 
 @section('content')
     <section class="relative">
+
         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
+
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="logo">
@@ -42,6 +46,7 @@
     <!-- sambutan -->
     <!-- About start -->
     <div class="container-xxl py-5">
+
 
         <div class="row g-5 align-items-center">
             <div class="col-lg-4">
@@ -226,10 +231,66 @@
                             <div class="card-body" id="module">
                             <h5 class="card-title text-capitalize">Perayaan Hari Kemerdekaan RI</h5>
                                 <p class="card-text thumbnail read-toggle" data-id='0'>Perayaan kemerdekaan RI merupakan acara tahunan yang dirayakan pada tanggal 17 Agustus untuk memperingati kemerdekaan Indonesia. Perayaan ini diisi dengan berbagai kegiatan seperti  pawai, lomba, dan pertunjukan seni budaya.</p>
+=======
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-4">
+
+                    <div class=" h-50 overflow-hidden">
+                        <img class="img-fluid"
+                            src="https://i.pinimg.com/564x/ca/f8/0b/caf80b4d3115be8505a29834d594ea69.jpg ">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h1 class="mb-4">SAMBUTAN <span class="text-primary text-uppercase">KETUA RW.</span></h1>
+                    <p class="mb-4">With millions of hectares of fertile land on 17,000 islands, agriculture is a
+                        vital sector in Indonesia, absorbing the country's largest workforce. Data from the Central
+                        Statistics Agency for 2020 shows that almost 30% of Indonesian workers, or around 8.23 million
+                        people, depend on the agricultural sector for their livelihood. However, the sector faces many
+                        problems, including poor supply chain infrastructure and a lack of access to advanced
+                        technology. <b></b> is here to solve this problem and to support the government's efforts to be
+                        self-sufficient in food in order to welcome the industrial revolution era 5.0</b></p>
+
+                    <p>
+                        Great potential, lots of challenges
+                        The company currently partners with around 1,500 farmer groups in Indonesia, with a total of
+                        more than 10,000 individual farmers. Nyayur has five sourcing hubs in West Java to serve
+                        customers in Greater Jakarta and two other hubs in Surabaya and Bali.</p>
+                </div>
+                <div class="row g-3 pb-4">
+                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="border rounded p-1">
+                            <div class="border rounded text-center p-4">
+                                <i class="fa fa-mobile-screen fa-2x text-primary mb-2"></i>
+                                <h2 class="mb-1" data-val="10" id="num">00</h2>
+                                <p class="mb-0 fw-bolder">Million</p>
+                                <p class="mb-0">User</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="border rounded p-1">
+                            <div class="border rounded text-center p-4">
+                                <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                                <h2 class="mb-1" data-val="80" id="num">00</h2>
+                                <br>
+                                <p class="mb-0">Staffs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="border rounded p-1">
+                            <div class="border rounded text-center p-4">
+                                <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                                <h2 class="mb-1" data-val="500" id="num">000</h2>
+                                <br>
+                                <p class="mb-0">Clients</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="p-2 text-center">
                 <a href="#"><button class="btn-more">Lihat Lagi</button></a>
                 </div>
@@ -311,6 +372,21 @@
         <section class="container">
             {{-- <h1 class="my-4 text-center text-lg-left">Galeri</h1> --}}
             <div class="row row-cols-2 gallery">
+
+            </div>
+        </div>
+        <!-- about end -->
+
+
+
+        <!-- ormas -->
+        <h1>Organisasi Masyarakat</h1>
+
+        <!-- galery start -->
+        <section class="container">
+            <h1 class="my-4 text-center text-lg-left">Galeri</h1>
+            <div class="row gallery">
+
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1"
                             alt="Random Image"></figure>
