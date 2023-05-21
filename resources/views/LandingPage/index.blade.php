@@ -292,27 +292,97 @@
 
 
         <!-- ormas -->
-        <h1>Organisasi Masyarakat</h1>
-    <!-- <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
+        <section class="flex justify-content-center align-content-center my-4 mb-5" id="ormas">
+            <h2 class="text-center my-5 blue-title text-capitalize fw-bold">Organisasi Masyarakat</h2>
+            <div class="ormas carousel mx-auto" data-bs-ride="carousel" id="carouselControls" style="width:90%">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-md-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                        <img src="https://1.bp.blogspot.com/-3HopkQyBdVM/WQTWhSnWfjI/AAAAAAAAB-s/PaO2ZF9RpxUIDHyP_faRbxSh5kyK6FUtQCLcB/s1600/Logo%2BNahdlatul%2BUlama%2B%2528NU%2529%2B-%2BFormat%2BPNG.png" class="potensi-img card-img-top rounded-circle object-fit-cover shadow" alt="..." width="50%" height="200">
+                            <div class="card-body mt-2 text-center">
+                                <h5 class="card-title text-capitalize">nadhlatul ulama</h5>
+                                <!-- <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                        <img src="https://th.bing.com/th/id/OIP.kA5Kfs1jEspaCRokNVQErwHaHm?pid=ImgDet&w=860&h=883&rs=1" alt="" class="card-img-top rounded-circle object-fit-cover shadow" alt="..." width="50%" height="200">
+                        <div class="card-body mt-2 text-center">
+                            <h5 class="card-title text-capitalize">pemberdayaan kesejahteraan keluarga</h5>
+                            <!-- <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                        <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="" class="card-img-top rounded-circle object-fit-cover shadow" alt="..." width="50%" height="200">
+                        <div class="card-body mt-2 text-center">
+                            <h5 class="card-title text-capitalize">pemberdayaan kesejahteraan keluarga</h5>
+                            <!-- <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                        <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="" class="card-img-top rounded-circle object-fit-cover shadow" alt="..." width="50%" height="200">
+                        <div class="card-body mt-2 text-center">
+                            <h5 class="card-title text-capitalize">pemberdayaan kesejahteraan keluarga</h5>
+                            <!-- <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                        <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="" class="card-img-top rounded-circle object-fit-cover shadow" alt="..." width="50%" height="200">
+                        <div class="card-body mt-2 text-center">
+                            <h5 class="card-title text-capitalize">pemberdayaan kesejahteraan keluarga</h5>
+                            <!-- <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+                <!-- create next or prev button -->
+                <button class="carousel-control-prev rounded-2 my-auto" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+                <span class="visually-hidden text-black">Previous</span>
+                </button>
+                <button class="carousel-control-next rounded-2 my-auto" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            </section>
 
     {{-- agenda --}}
     <div class="album py-3" id="agenda">
