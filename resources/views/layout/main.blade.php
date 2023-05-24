@@ -13,91 +13,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <link rel="stylesheet" href="css/style.css">
-
-    <style>
-        .navbar {
-            background-color: blue;
-            font-family: 'Poppins', sans-serif;
-            position: sticky;
-        }
-
-        .navbar-brand,
-        .navbar-nav .nav-link {
-            color: white;
-        }
-
-        .navbar-brand:hover {
-            color: white;
-            text-decoration: none;
-
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: #83764F;
-            text-decoration: underline;
-        }
-
-        .logo {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 10px;
-        }
-
-        .logo-img {
-            height: 50px;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-
-        .b-example-divider {
-            width: 100%;
-            height: 3rem;
-            background-color: rgba(0, 0, 0, .1);
-            border: solid rgba(0, 0, 0, .15);
-            border-width: 1px 0;
-            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-        }
-
-        /* Start Gallery CSS */
-        .thumb {
-            margin-bottom: 15px;
-        }
-
-        .thumb:last-child {
-            margin-bottom: 0;
-        }
-
-        .thumb figure img {
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-            -webkit-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
-        }
-
-        .thumb figure:hover img {
-            -webkit-filter: grayscale(0);
-            filter: grayscale(0);
-        }
-    </style>
 
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     @include('utils.navbar')
     @yield('content')
     @include('utils.footer')
 
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         let valueDisplays = document.querySelectorAll("#num");
         let interval = 5000;
@@ -153,90 +80,44 @@
                 });
                 });
             });
-            const wrapper = document.querySelector(".wrapper");
-const carousel = document.querySelector(".carousel");
-const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-const arrowBtns = document.querySelectorAll(".wrapper i");
-const carouselChildrens = [...carousel.children];
 
-let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+    // ormas
+    function handleResponsive() {
+        // Get the window width
+        var windowWidth = window.innerWidth;
 
-// Get the number of cards that can fit in the carousel at once
-let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+        // Select all carousel items
+        var items = document.querySelectorAll('.ormas.carousel .carousel-item');
 
-// Insert copies of the last few cards to beginning of carousel for infinite scrolling
-carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-    carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-});
+        // Define the default number of items to show
+        var slide = 4;
 
-// Insert copies of the first few cards to end of carousel for infinite scrolling
-carouselChildrens.slice(0, cardPerView).forEach(card => {
-    carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-});
+        // Check the window width and update the number of items to show
+        if (windowWidth < 576) {
+          slide = 1; // Show 2 items for small screens
+        } else if (windowWidth >= 576 && windowWidth < 992) {
+          slide = 2; // Show 3 items for medium screens
+        }
 
-// Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
-carousel.classList.add("no-transition");
-carousel.scrollLeft = carousel.offsetWidth;
-carousel.classList.remove("no-transition");
+        // Loop through each carousel item
+        items.forEach((e) => {
+          let next = e.nextElementSibling;
+          for (var i = 1; i < slide; i++) {
+            if (!next) {
+              next = items[0];
+            }
+            let cloneChild = next.cloneNode(true);
+            e.appendChild(cloneChild.children[0]);
+            next = next.nextElementSibling;
+          }
+        });
+      }
 
-// Add event listeners for the arrow buttons to scroll the carousel left and right
-arrowBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
-    });
-});
+      // Event listener for window resize
+      window.addEventListener('resize', handleResponsive);
 
-const dragStart = (e) => {
-    isDragging = true;
-    carousel.classList.add("dragging");
-    // Records the initial cursor and scroll position of the carousel
-    startX = e.pageX;
-    startScrollLeft = carousel.scrollLeft;
-}
-
-const dragging = (e) => {
-    if(!isDragging) return; // if isDragging is false return from here
-    // Updates the scroll position of the carousel based on the cursor movement
-    carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-}
-
-const dragStop = () => {
-    isDragging = false;
-    carousel.classList.remove("dragging");
-}
-
-const infiniteScroll = () => {
-    // If the carousel is at the beginning, scroll to the end
-    if(carousel.scrollLeft === 0) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
-        carousel.classList.remove("no-transition");
-    }
-    // If the carousel is at the end, scroll to the beginning
-    else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
-        carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.offsetWidth;
-        carousel.classList.remove("no-transition");
-    }
-
-    // Clear existing timeout & start autoplay if mouse is not hovering over carousel
-    clearTimeout(timeoutId);
-    if(!wrapper.matches(":hover")) autoPlay();
-}
-
-const autoPlay = () => {
-    if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
-    // Autoplay the carousel after every 2500 ms
-    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
-}
-autoPlay();
-
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("mousemove", dragging);
-document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("scroll", infiniteScroll);
-wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-wrapper.addEventListener("mouseleave", autoPlay);
+      // Initial call to handle responsive behavior
+      handleResponsive();
     </script>
 </body>
 
