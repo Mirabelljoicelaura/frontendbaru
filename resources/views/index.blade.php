@@ -320,71 +320,64 @@
     </div>
         </div>
 
-        <!-- galery start -->
-        <section class="container">
-            {{-- <h1 class="my-4 text-center text-lg-left">Galeri</h1> --}}
-            <div class="row row-cols-2 gallery">
-
-            </div>
-        </div>
-        <!-- about end -->
-
-        <!-- galery start -->
-        <section class="container">
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1"
-                            alt="Random Image"></figure>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=2"
-                            alt="Random Image"></figure>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=3"
-                            alt="Random Image"></figure>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=4"
-                            alt="Random Image"></figure>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=5"
-                            alt="Random Image"></figure>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6"
-                            alt="Random Image"></figure>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=7"
-                            alt="Random Image"></figure>
-
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                    <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=8"
-                            alt="Random Image"></figure>
-
-                </div>
-
-            </div>
-        </section>
     </div>
+
+    <!-- galery start -->
+    <section class="container">
+        <h1 class="my-4 text-center text-lg-left">Galeri</h1>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1"
+                        alt="Random Image"></figure>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=2"
+                        alt="Random Image"></figure>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=3"
+                        alt="Random Image"></figure>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=4"
+                        alt="Random Image"></figure>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=5"
+                        alt="Random Image"></figure>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6"
+                        alt="Random Image"></figure>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=7"
+                        alt="Random Image"></figure>
+
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+
+                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=8"
+                        alt="Random Image"></figure>
+
+            </div>
+
+        </div>
+    </section>
 @endsection
