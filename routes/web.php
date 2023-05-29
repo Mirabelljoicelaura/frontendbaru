@@ -24,3 +24,7 @@ Route::get('/agenda', function () {
 Route::get('/potensi', function () {
     return view('potensi');
 });
+
+Route::get('/galeri', function () {
+    return view('galeri');
+});
