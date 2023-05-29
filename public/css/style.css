@@ -1,4 +1,6 @@
-.navbar{
+
+
+.navbar {
     background-color: rgba(0, 26, 57, 0.87) ;
     font-family: 'Poppins', sans-serif;
     position: sticky;
@@ -96,7 +98,7 @@ color: #485ae4;
 }
 
 .potensi img{
-    margin-left: 25%;
+    margin-left: 15%;
     max-width: 200px;
     max-height: 200px;
 }
@@ -114,135 +116,72 @@ color: #485ae4;
     justify-items: center;
 } */
 
-.cards-wrapper {
+.ormas img{
+    max-width: 140px;
+    max-height: 140px;
+  }
+
+.ormas .carousel-inner .carousel-item.active,
+.ormas .carousel-inner .carousel-item-next,
+.ormas .carousel-inner .carousel-item-prev{
     display: flex;
     justify-content: center;
-  }
-.ormas img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-.ormas{
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-    border-radius: 0;
-  }
-.ormas.carousel-inner {
-    padding: 1em;
-  }
-
-  .ormas.carousel-control-prev,
-  .ormas.carousel-control-next {
-    background-color: #e1e1e1;
-    width: 5vh;
-    height: 5vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .wrapper {
-    max-width: 1100px;
-    width: 100%;
-    position: relative;
-  }
-  .wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
     text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
   }
-  .wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
+
+.ormas .carousel-control-prev,.ormas .carousel-control-next {
+    background-color: #485ae4;
+    width: 35px;
+    height: 35px;
+    opacity: 100%;
   }
-  .wrapper i:first-child{
-    left: -22px;
+
+  /* gallery modal */
+  .lightbox-modal .modal-content {
+    background: var(--lightbox);
   }
-  .wrapper i:last-child{
-    right: -22px;
+
+  .lightbox-modal .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    font-size: 1.2rem;
+    z-index: 10;
   }
-  .wrapper .carousel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 16px;
-    border-radius: 8px;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-  }
-  .carousel::-webkit-scrollbar {
-    display: none;
-  }
-  .carousel.no-transition {
-    scroll-behavior: auto;
-  }
-  .carousel.dragging {
-    scroll-snap-type: none;
-    scroll-behavior: auto;
-  }
-  .carousel.dragging .card {
-    cursor: grab;
-    user-select: none;
-  }
-  .carousel :where(.card, .img) {
+
+  .lightbox-modal .modal-body {
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  .carousel .card {
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background: #fff;
-    cursor: pointer;
-    padding-bottom: 15px;
-    flex-direction: column;
-    border-radius: 8px;
-  }
-  .carousel .card .img {
-    background: #8B53FF;
-    height: 148px;
-    width: 148px;
-    border-radius: 50%;
-  }
-  .card .img img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #fff;
-  }
-  .carousel .card h2 {
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-  }
-  .carousel .card span {
-    color: #6A6D78;
-    font-size: 1.31rem;
+    padding: 0;
+    text-align: center;
   }
 
-  @media screen and (max-width: 900px) {
-    .wrapper .carousel {
-      grid-auto-columns: calc((100% / 2) - 9px);
-    }
+  .lightbox-modal img {
+    width: auto;
+    max-height: 100vh;
+    max-width: 100%;
   }
 
-  @media screen and (max-width: 600px) {
-    .wrapper .carousel {
-      grid-auto-columns: 100%;
-    }
+  .lightbox-modal .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(36, 36, 36, 0.75);
+  }
+
+  .lightbox-modal .carousel-control-prev,
+  .lightbox-modal .carousel-control-next {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    width: auto;
+  }
+
+  .lightbox-modal .carousel-control-prev {
+    left: 10%;
+  }
+
+  .lightbox-modal .carousel-control-next {
+    right: 10%;
   }
 

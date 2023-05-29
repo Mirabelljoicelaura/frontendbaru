@@ -11,19 +11,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto" style="padding: 0 10px;">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Profil
                     </a>
                     <ul class="dropdown-menu" data-bs-auto-close="outside">
-                        <li><a class="dropdown-item" href="#">Agenda</a></li>
-                        <li><a class="dropdown-item" href="#">Potensi</a></li>
+                        <li><a class="dropdown-item" href="/agenda">Agenda</a></li>
+                        <li><a class="dropdown-item" href="/potensi">Potensi</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Galeri</a>
+                    <a class="nav-link" href="/galeri">Galeri</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact Us</a>
