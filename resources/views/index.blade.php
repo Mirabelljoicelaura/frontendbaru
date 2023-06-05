@@ -65,25 +65,25 @@
         </div>
     </div>
     <div class="row p-3 mb-2 bg-dark-blue text-white" style="background-image: url(/assets/img/bg.jpg); background-position :center; background-repeat:no-repeat; background-size :cover;">
-        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.2s">
             <div class=" p-1">
                 <div class=" text-center p-4">
                     <i class="fa fa-mobile-screen fa-2x text-white mb-2"></i>
-                    <h2 class="mb-1" data-val="10" id="num">00</h2>
+                    <h2 class="mb-1" data-val="500" id="num">000</h2>
                     <p class="mb-0">Laki-laki</p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.3s">
+        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.2s">
             <div class=" p-1">
                 <div class=" text-center p-4">
                     <i class="fa fa-users-cog fa-2x text-white mb-2"></i>
-                    <h2 class="mb-1" data-val="80" id="num">00</h2>
+                    <h2 class="mb-1" data-val="500" id="num">000</h2>
                     <p class="mb-0">Perempuan</p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
+        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.2s">
             <div class="p-1">
                 <div class="text-center p-4">
                     <i class="fa fa-users fa-2x text-white mb-2"></i>
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
+        <div class="col-sm-3 wow fadeIn" data-wow-delay="0.2s">
             <div class=" p-1">
                 <div class=" text-center p-4">
                     <i class="fa fa-users fa-2x text-white mb-2"></i>
@@ -315,8 +315,8 @@
     </div>
 
         <!-- galery start -->
-        <section class="container">
-            <h1 class="my-4 text-center text-lg-left">Galeri</h1>
+        <section class="container py-4">
+            {{-- <h1 class="my-4 text-center text-lg-left">Galeri</h1> --}}
             <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">
                 <div class="col-lg-3 col-md-4 col-xs-6 ">
                     <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=1"

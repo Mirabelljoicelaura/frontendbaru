@@ -8,22 +8,20 @@
 
           <h5 class="text-uppercase">ERWE LIMO Tanjungrejo</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-            voluptatem veniam, est atque cumque eum delectus sint!
+            “Kecerdasan adalah kemampuan beradaptasi terhadap perubahan." - Stephen Hawking
           </p>
           <div class="flex row">
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <h6 class="text-uppercase fw-bold mb-4 mt-3">Contact</h6>
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <p>
                   <i class="fab fa-instagram me-3 text-white" style="color: blue"></i>
                   <a href="https://instagram.com/rukunwarga05tanjungrejo/" style="text-decoration: none;" class="text-white">rukunwarga05tanjungrejo</a></p>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <p><i class="fas fa-phone me-3 text-white"></i><a href="wa.me/628111615533" style="text-decoration: none;" class="text-white">Contact Person</a></p>
+                <p><i class="fas fa-phone me-3 text-white"></i><a href="https://wa.me/628111615533?text='Permisi, saya mau tanya :)'" style="text-decoration: none;" class="text-white">Contact Person</a></p>
             </div>
             <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                <p><i class="fas fa-envelope me-3 text-white"></i><a href="rw05tanjungrejo@gmail.com" style="text-decoration: none;" class="text-white">rw05tanjungrejo@gmail.com</a></p>
+                <p><i class="fas fa-envelope me-3 text-white"></i><a href="mailto:rw05tanjungrejo@gmail.com" style="text-decoration: none;" class="text-white">rw05tanjungrejo@gmail.com</a></p>
             </div>
           </div>
 
