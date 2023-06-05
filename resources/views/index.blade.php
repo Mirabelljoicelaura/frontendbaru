@@ -9,26 +9,17 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="logo">
-                        <img src="https://i.pinimg.com/originals/11/81/23/1181237c6315660d6efa26e84d0fbfe2.png" alt="Logo"
-                            class="logo-img">
-                    </div>
+
                     <img src="https://images.unsplash.com/photo-1613395940640-9c2d79562bf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         class="d-block w-100" alt="..." style="height:600px; object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <div class="logo">
-                        <img src="https://i.pinimg.com/originals/11/81/23/1181237c6315660d6efa26e84d0fbfe2.png"
-                            alt="Logo" class="logo-img">
-                    </div>
+
                     <img src="https://images.unsplash.com/photo-1545300082-ad9323e5e4ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
                         class="d-block w-100" alt="..." style="height:600px; object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <div class="logo">
-                        <img src="https://i.pinimg.com/originals/11/81/23/1181237c6315660d6efa26e84d0fbfe2.png"
-                            alt="Logo" class="logo-img">
-                    </div>
+
                     <img src="https://images.unsplash.com/photo-1582156307922-c6cd3584b6bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         class="d-block w-100" alt="..." style="height:600px; object-fit: cover;">
                 </div>
@@ -73,11 +64,11 @@
             </div>
         </div>
     </div>
-    <div class="row p-3 mb-5 bg-primary text-white">
+    <div class="row p-3 mb-2 bg-dark-blue text-white" style="background-image: url(/assets/img/bg.jpg); background-position :center; background-repeat:no-repeat; background-size :cover;">
         <div class="col-sm-3 wow fadeIn" data-wow-delay="0.1s">
             <div class=" p-1">
                 <div class=" text-center p-4">
-                    <i class="fa fa-mobile-screen fa-2x text-primary mb-2"></i>
+                    <i class="fa fa-mobile-screen fa-2x text-white mb-2"></i>
                     <h2 class="mb-1" data-val="10" id="num">00</h2>
                     <p class="mb-0">Laki-laki</p>
                 </div>
@@ -86,7 +77,7 @@
         <div class="col-sm-3 wow fadeIn" data-wow-delay="0.3s">
             <div class=" p-1">
                 <div class=" text-center p-4">
-                    <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                    <i class="fa fa-users-cog fa-2x text-white mb-2"></i>
                     <h2 class="mb-1" data-val="80" id="num">00</h2>
                     <p class="mb-0">Perempuan</p>
                 </div>
@@ -95,7 +86,7 @@
         <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
             <div class="p-1">
                 <div class="text-center p-4">
-                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                    <i class="fa fa-users fa-2x text-white mb-2"></i>
                     <h2 class="mb-1" data-val="500" id="num">000</h2>
 
                     <p class="mb-0">Jiwa</p>
@@ -105,13 +96,14 @@
         <div class="col-sm-3 wow fadeIn" data-wow-delay="0.5s">
             <div class=" p-1">
                 <div class=" text-center p-4">
-                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                    <i class="fa fa-users fa-2x text-white mb-2"></i>
                     <h2 class="mb-1" data-val="500" id="num">000</h2>
                     <p class="mb-0">Kepala Keluarga</p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- about end -->
 
@@ -322,59 +314,59 @@
 
     </div>
 
-    <!-- galery start -->
-    <section class="container">
-        <h1 class="my-4 text-center text-lg-left">Galeri</h1>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1"
-                        alt="Random Image"></figure>
-            </div>
+        <!-- galery start -->
+        <section class="container">
+            <h1 class="my-4 text-center text-lg-left">Galeri</h1>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">
+                <div class="col-lg-3 col-md-4 col-xs-6 ">
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=1"
+                            alt="Random Image"></figure>
+                </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=2"
-                        alt="Random Image"></figure>
-            </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=2"
+                            alt="Random Image"></figure>
+                </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <div class="col-lg-3 col-md-4 col-xs-6 ">
 
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=3"
-                        alt="Random Image"></figure>
-
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=4"
-                        alt="Random Image"></figure>
+                    <figure><img class="img-fluid" src="https://picsum.photos/940/650?random=3"
+                            alt="Random Image"></figure>
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <div class="col-lg-3 col-md-4 col-xs-6">
 
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=5"
-                        alt="Random Image"></figure>
-
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6"
-                        alt="Random Image"></figure>
+                    <figure><img class="img-fluid" src="https://picsum.photos/940/650?random=4"
+                            alt="Random Image"></figure>
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <div class="col-lg-3 col-md-4 col-xs-6 ">
 
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=7"
-                        alt="Random Image"></figure>
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=5"
+                            alt="Random Image"></figure>
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <div class="col-lg-3 col-md-4 col-xs-6">
 
-                <figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=8"
-                        alt="Random Image"></figure>
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=6"
+                            alt="Random Image"></figure>
+
+            </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6">
+
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=7"
+                            alt="Random Image"></figure>
+
+            </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 ">
+
+                    <figure><img class="img-fluid " src="https://picsum.photos/940/650?random=8"
+                            alt="Random Image"></figure>
 
             </div>
 

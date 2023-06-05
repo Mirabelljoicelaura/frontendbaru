@@ -1,11 +1,11 @@
 
-.navbar, #ormas h2, #agenda h2, #potensi h2, #agenda h5, #potensi h5{
+.navbar{
+    background-color: rgba(0, 26, 57, 0.87) ;
     font-family: 'Poppins', sans-serif;
-}
 
-.navbar {
-    background-color: blue;
     position: sticky;
+    /* width: 100%;
+    height: 73.7px; */
 }
 
 .navbar-brand,
@@ -50,46 +50,6 @@
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-/* Start Gallery CSS */
-.thumb {
-    margin-bottom: 15px;
-}
-
-.thumb:last-child {
-    margin-bottom: 0;
-}
-
-.thumb figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.thumb figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
- /* Start Gallery CSS */
- .thumb {
-    margin-bottom: 15px;
-}
-
-.thumb:last-child {
-    margin-bottom: 0;
-}
-
-.thumb figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.thumb figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
 
 #custom-text-link{
 font-size: 11pt;
@@ -141,6 +101,13 @@ color: #485ae4;
     margin-left: 15%;
     max-width: 200px;
     max-height: 200px;
+}
+/* footer */
+.bg-dark-blue{
+    background: #002147;
+}
+.text-daark-blue{
+    color : 0000AA;
 }
 
 /* .potensi{
@@ -217,3 +184,4 @@ color: #485ae4;
   .lightbox-modal .carousel-control-next {
     right: 10%;
   }
+

@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg z-3 fixed-top --bs-primary">
-    <div class="container">
-
+<nav class="navbar navbar-expand-lg z-3 fixed-top ">
+    <div class="container-fluid">
+        <img src="/assets/img/malang.png" alt="Logo" height="40px" style="margin :0 10px 0 5px">
         <a class="navbar-brand fw-bold" href="#">ERWE LIMO Tanjungrejo</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
